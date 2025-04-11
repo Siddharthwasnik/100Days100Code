@@ -1,5 +1,5 @@
-// import project1 from "../assets/projects/project-1.webp";
-// import project2 from "../assets/projects/project-2.webp";
+import project1 from '../assets/wheather app.jpg'
+import project2 from '../assets/chatbot.jpg'
 
 export const HERO_CONTENT = `I am a passionate frontend developer skilled in building responsive 
 and interactive user interfaces using modern web technologies. With a strong foundation in HTML, 
@@ -23,21 +23,22 @@ export const EXPERIENCES = [
     description: `Created responsive and user-friendly interfaces using HTML, CSS, and 
     JavaScript. Collaborated with cross-functional teams to develop new features and
      improve UI performance. Participated in code reviews, optimized performance, and implemented user feedback.`,
-    technologies: ["HTML", "CSS", "JavaScript", "React.js", "Tailwind CSS"],
+    tech : ["HTML", "CSS", "JavaScript", "React.js", "Tailwind CSS"],
   },
 ];
 
 export const PROJECTS = [
   {
     title: "Weather Forecast App",
-    // image: project1,
+    image: project1,
     description:
       "A real-time weather app built using React.js and Tailwind CSS. It  fetches weather data using the OpenWeather API and provides geolocation-based updates, dynamic clock, and responsive design.",
     technologies: ["React.js", "Tailwind CSS", "OpenWeather API", "Geolocation API"],
   },
   {
     title: "AI Chatbot UI",
-    // image: project2,
+    image: project2,
+
     description:
       "An interactive chatbot frontend using HTML, CSS, and JavaScript. Integrated with Groq Cloud API for real-time chat responses, featuring a responsive and intuitive chat UI.",
     technologies: ["HTML", "CSS", "JavaScript", "API Integration"],
