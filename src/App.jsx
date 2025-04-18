@@ -7,6 +7,8 @@ import ButtonDemo from './Components/Button'
 import StatsSection from './Components/StatSection'
 import ProgressBar from './Components/ProgressBar'
 import Quote from './Components/Quote'
+import Wheather from './Components/Wheather'
+import Todo from './Components/Todo'
 
 
 const App = () => {
@@ -14,8 +16,9 @@ const App = () => {
     <div className='flex items-center justify-center h-screen'>
 {/* <StatsSection/> */}
 {/* <ProgressBar/> */}
-<Quote/>
-
+{/* <Quote/> */}
+{/* <Wheather/> */}
+  <Todo/>
 
     </div>
   )
