@@ -36,3 +36,17 @@ yarn-error.log*
 Thumbs.db
 # Env files
 .env
+
+node_modules
+.env
+build
+dist
+.DS_Store
+*.log
+node_modules
+.env
+build
+dist
+.DS_Store
+*.log
+
