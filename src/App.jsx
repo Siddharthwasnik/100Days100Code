@@ -9,17 +9,16 @@ import ProgressBar from './Components/ProgressBar'
 import Quote from './Components/Quote'
 import Wheather from './Components/Wheather'
 import Todo from './Components/Todo'
+import Header from './Components/Expense/Header'
+import Balance from './Components/Expense/Balance'
+import Income from './Components/Expense/Income'
+import Calculator from './Components/Calculator'
 
 
 const App = () => {
   return (
-    <div className='flex items-center justify-center h-screen'>
-{/* <StatsSection/> */}
-{/* <ProgressBar/> */}
-{/* <Quote/> */}
-{/* <Wheather/> */}
-  <Todo/>
-
+    <div className=''>
+ <Calculator/>
     </div>
   )
 }
