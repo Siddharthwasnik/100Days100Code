@@ -13,12 +13,13 @@ import Header from './Components/Expense/Header'
 import Balance from './Components/Expense/Balance'
 import Income from './Components/Expense/Income'
 import Calculator from './Components/Calculator'
+import Clock from './Components/Clock'
 
 
 const App = () => {
   return (
     <div className=''>
- <Calculator/>
+<Clock/>
     </div>
   )
 }

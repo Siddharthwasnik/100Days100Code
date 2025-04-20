@@ -9,7 +9,11 @@ export default {
       colors:{
         'custom-dark': '#171c28',
         'secondary-color':"#55198b",
-      }
+      },
+      fontFamily: {
+        orbitron: ['Orbitron', 'sans-serif'],
+      },
+
     },
   },
   plugins: [],
